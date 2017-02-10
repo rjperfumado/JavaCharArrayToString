@@ -1,0 +1,23 @@
+package com.mkyong.utils;
+
+public class CharArrayToString {
+
+    public static void main(String[] args) {
+
+        char[] charArrays = new char[]{'1', '2', '3', 'A', 'B', 'C'};
+
+        String newString1 = new String(charArrays);
+        System.out.println("newString1 : " + newString1);
+
+        String newString2;
+        newString2 = String.valueOf(charArrays);
+        System.out.println("newString2 : " + newString2);
+
+    }
+
+}
+
+
+OutPut:
+newString1 : 123ABC
+newString2 : 123ABC
